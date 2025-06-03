@@ -244,7 +244,7 @@ html, body {
 
 }
 
-.video-content-section {
+.video-section {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -259,7 +259,7 @@ html, body {
     margin-bottom: 50px;
 }
 
-.video-gallery {
+.gallery {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -306,7 +306,7 @@ html, body {
     opacity: 0.7;
 }
 
-.nav-arrow {
+.right-arrow {
     font-size: 2em;
     color: #000;
     cursor: pointer;
@@ -318,6 +318,6 @@ html, body {
     flex-shrink: 0;
 }
 
-.nav-arrow:hover {
+.right-arrow:hover {
     background-color: #fff
 }
