@@ -222,17 +222,6 @@ html, body {
     border-radius: 2px;
 }
 
-@media (max-width: 768px) {
-    .card-container {
-        grid-template-columns: 1fr;
-        padding-left: 0;
-    }
-
-    .card-column {
-        display: none;
-    }
-}
-
 .card-container.video-card {
     display: flex;
     flex-direction: column;
